@@ -2,16 +2,23 @@ import "./globals.css";
 
 export const metadata = {
   title: "Inerres - Interior Modern Furniture",
-  description: "Inerres - Interior Modern Furniture - Created by Muhammad Kaif Nazeer",
+  description:
+    "Inerres - Interior Modern Furniture - Created by Muhammad Kaif Nazeer",
 };
 
-export default function RootLayout({ children }) {  
+export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="!scroll-smooth">
+    <html
+      lang="en"
+      className="!scroll-smooth"
+      style={{
+        scrollPadding: `5rem`,
+      }}
+    >
       <head>
         <link rel="icon" href="/favicon.png" />
       </head>
-      <body >{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
