@@ -62,20 +62,20 @@ const Hero = () => {
                 className="h-full w-[30%] overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
               >
                 <Image
-                  src={"/r-image-3.jpg"}
+                  src={"/image-3.jpg"}
                   height="10000"
                   width="10000"
                   className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                  alt="thumbnail"
+                  alt="image"
                 />
               </div>
               <div className="h-full w-[70%] overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5">
                 <Image
-                  src={"/r-image-11.jpg"}
+                  src={"/image-11.jpg"}
                   height="1000"
                   width="1000"
                   className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                  alt="thumbnail"
+                  alt="image"
                 />
               </div>
             </div>
@@ -83,11 +83,11 @@ const Hero = () => {
             <div translateZ="100" className="h-[50%] w-full overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
             >
               <Image
-                src={"/r-image-9.jpg"}
+                src={"/image-9.jpg"}
                 height="1000"
                 width="1000"
                 className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                alt="thumbnail"
+                alt="image"
               />
             </div>
 
@@ -99,11 +99,11 @@ const Hero = () => {
               className="w-full h-[50%] overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
             >
               <Image
-                src={"/r-image-10.jpg"}
+                src={"/image-10.jpg"}
                 height="10000"
                 width="10000"
                 className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                alt="thumbnail"
+                alt="image"
               />
             </div>
 
