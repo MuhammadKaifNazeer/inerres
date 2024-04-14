@@ -22,7 +22,7 @@ const Header = () => {
 
         <div
           onClick={() => setOpen(!open)}
-          className="absolute text-[--primary-text-color-white] right-8 top-5 cursor-pointer md:hidden"
+          className="absolute text-[--primary-text-color-white] sm:right-8 right-6 top-5 cursor-pointer md:hidden"
         >
           <HamburgerMenuIcon style={{
             width: "25px",
