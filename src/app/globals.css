@@ -20,3 +20,14 @@
   font-family: sans-serif;
 }
 
+@media screen and (max-width: 359px) {
+  .sectionHead {
+    justify-content: center;
+  }
+  .sectionHeadTitle{
+    margin: 1rem;
+  }
+  .sectionHeadPlusIcon {
+    display: none;
+  }
+}
