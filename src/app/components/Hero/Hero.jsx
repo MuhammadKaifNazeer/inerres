@@ -93,7 +93,7 @@ const Hero = () => {
 
           </div>
 
-          <div className="lg:w-[25%] w-[100%] h-[100vh] hidden lg:block flex flex-col">
+          <div className="lg:w-[25%] w-[100%] h-[100vh] hidden lg:block flex-col">
             <div
               translateZ="100"
               className="w-full h-[50%] overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
