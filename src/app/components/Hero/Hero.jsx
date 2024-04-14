@@ -53,23 +53,23 @@ const Hero = () => {
 
         {/* bento grid layout using flex box */}
         <div className="flex w-full my-10 flex-wrap">
-
           <div className="lg:w-[75%] w-[100%] h-[100vh]">
-
             <div className="h-[50%] w-full flex">
-              <div
-                translateZ="100"
-                className="h-full w-[30%] overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
-              >
-                <Image
-                  src={"/image-3.jpg"}
-                  height="10000"
-                  width="10000"
-                  className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
-                  alt="image"
-                />
+              <div className="hidden sm:block h-full w-[30%] overflow-hidden rounded-lg ">
+                <div
+                  translateZ="100" 
+                  className="h-full w-full flex justify-center items-end p-1 sm:p-1.5"
+                >
+                  <Image
+                    src={"/image-3.jpg"}
+                    height="10000"
+                    width="10000"
+                    className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
+                    alt="image"
+                  />
+                </div>
               </div>
-              <div className="h-full w-[70%] overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5">
+              <div className="h-full w-[100%] sm:w-[70%] overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5">
                 <Image
                   src={"/image-11.jpg"}
                   height="1000"
@@ -80,7 +80,9 @@ const Hero = () => {
               </div>
             </div>
 
-            <div translateZ="100" className="h-[50%] w-full overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
+            <div
+              translateZ="100"
+              className="h-[50%] w-full overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
             >
               <Image
                 src={"/image-9.jpg"}
@@ -90,7 +92,6 @@ const Hero = () => {
                 alt="image"
               />
             </div>
-
           </div>
 
           <div className="lg:w-[25%] w-[100%] h-[100vh] hidden lg:block flex-col">
