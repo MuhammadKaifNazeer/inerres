@@ -20,6 +20,7 @@
   font-family: sans-serif;
 }
 
+
 @media screen and (max-width: 359px) {
   .sectionHead {
     justify-content: center;

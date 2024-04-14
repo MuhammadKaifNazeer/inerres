@@ -3,14 +3,16 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Footer from "./components/Footer/Footer";
 import Testimonials from "./components/Testimonials/Testimonials";
-import SelectedProjects from "./components/SelectedProjects/SelectedProjects";
+import Products from "./components/Products/Products";
+import Projects from "./components/Projects/Projects";
 
 export default function Home() {
   return (
     <>
       <Header />
       <Hero />
-      <SelectedProjects />
+      <Products />
+      <Projects />
       <Testimonials />
       <Footer />
     </>
