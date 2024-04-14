@@ -5,7 +5,7 @@ import React from "react";
 const Testimonials = () => {
   return (
     <>
-      <div className="testimonials my-[10rem] px-3 sm:px-6" id="testimonials">
+      <div className="testimonials my-[5rem] px-3 sm:px-6" id="testimonials">
         <div className="sectionHead w-full bg-[--secondary-color] p-2 rounded-full flex justify-between items-center">
           <div className="h-[15px] w-[15px] rounded-full bg-[--primary-color] ml-5 hidden sm:block"></div>
 
