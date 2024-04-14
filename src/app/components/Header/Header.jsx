@@ -1,5 +1,5 @@
 "use client";
-import { DotsVerticalIcon, HamburgerMenuIcon } from "@radix-ui/react-icons";
+import { HamburgerMenuIcon } from "@radix-ui/react-icons";
 import React, { useState } from "react";
 
 const Header = () => {
