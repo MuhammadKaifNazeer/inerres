@@ -15,7 +15,7 @@ const Hero = () => {
 
         <div className="flex flex-wrap lg:justify-between justify-center items-center lg:px-4">
           <div className="w-[100%] lg:w-[50%] flex items-center ">
-            <p className="lg:w-[72%] lg:text-xl text-[--secondary-text-color] p-1 sm:p-0">
+            <p className="lg:w-[73%] lg:text-xl text-[--secondary-text-color] p-1 sm:p-0">
               We create venues to improve people&apos;s live, we bring the magic
               to life. On the surface, it&apos;s gleaming, but on the inside,
               it&apos;s stunning.
