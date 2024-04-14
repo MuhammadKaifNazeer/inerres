@@ -20,14 +20,14 @@ const Testimonials = () => {
           </div>
         </div>
 
-        <div className="w-full bg-[--primary-color] rounded-[20px] mt-2 p-[5rem]">
-          <p className="text-3xl font-bold leading-relaxed">
+        <div className="w-full bg-[--primary-color] rounded-[20px] mt-2 sm:p-[5rem] p-[1rem]">
+          <p className="sm:text-3xl text-2xl font-bold leading-relaxed">
             &quot;We are pleased to recommend their services! Their highly
             professional approach, strong attention to detail and refined taste
             translates just beautifully into their interiors&quot;
           </p>
           <div className="flex mt-10 gap-3 justify-start items-center">
-            <div className="w-[7rem] h-[7rem] overflow-hidden">
+            <div className="sm:w-[7rem] w-[5rem] sm:h-[7rem] h-[5rem] overflow-hidden">
               <div
                 translateZ="100"
                 className="h-full w-full flex justify-center items-end p-1 sm:p-1.5"
@@ -43,8 +43,8 @@ const Testimonials = () => {
             </div>
 
             <div className="flex flex-col">
-              <h1 className="font-bold text-2xl">Robert Lewandowski</h1>
-              <p className="text-lg mt-1">CEO Robert LLC</p>
+              <h1 className="font-bold sm:text-2xl text-xl">Robert Lewandowski</h1>
+              <p className="sm:text-lg text-md mt-1">CEO Robert LLC</p>
             </div>
           </div>
         </div>
