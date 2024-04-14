@@ -1,7 +1,6 @@
 import { ArrowTopRightIcon, PlusIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import React from "react";
-import styles from "./hero.module.css";
 
 const Hero = () => {
   return (
