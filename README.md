@@ -1,5 +1,7 @@
 # Inerres Landing Page
 
+[![Inerres](Inerres)](public/inerres.png) 
+
 **Created by:** Muhammad Kaif Nazeer
 
 **Project Type:** Frontend
