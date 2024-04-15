@@ -57,11 +57,11 @@ const Hero = () => {
             <div className="h-[50%] w-full flex">
               <div className="hidden sm:block h-full w-[30%] overflow-hidden rounded-lg ">
                 <div
-                  translateZ="100" 
+                  translateZ="100"
                   className="h-full w-full flex justify-center items-end p-1 sm:p-1.5"
                 >
                   <Image
-                    src={"/image-3.jpg"}
+                    src={"/bentoGrid-1.png"}
                     height="10000"
                     width="10000"
                     className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -71,7 +71,7 @@ const Hero = () => {
               </div>
               <div className="h-full w-[100%] sm:w-[70%] overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5">
                 <Image
-                  src={"/image-11.jpg"}
+                  src={"/project-1.png"}
                   height="1000"
                   width="1000"
                   className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -85,7 +85,7 @@ const Hero = () => {
               className="h-[50%] w-full overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
             >
               <Image
-                src={"/image-9.jpg"}
+                src={"/project-2.png"}
                 height="1000"
                 width="1000"
                 className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -100,7 +100,7 @@ const Hero = () => {
               className="w-full h-[50%] overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
             >
               <Image
-                src={"/image-10.jpg"}
+                src={"/bentoGrid-3.jpg"}
                 height="10000"
                 width="10000"
                 className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"

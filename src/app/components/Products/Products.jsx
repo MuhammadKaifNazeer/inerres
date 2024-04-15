@@ -18,6 +18,10 @@ const Products = () => {
             <PlusIcon width={45} height={45} color="var(--primary-color)" />
           </div>
         </div>
+
+        <div className="products">
+          
+        </div>
     </div>
     </>
   )

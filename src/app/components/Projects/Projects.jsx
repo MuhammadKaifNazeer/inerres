@@ -26,7 +26,7 @@ const Projects = () => {
             className="lg:h-[60vh] md:h-[50vh] sm:h-[40vh] h-[30vh] w-full overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
           >
             <Image
-              src={"/image-8.jpg"}
+              src={"/project-1.png"}
               height="1000"
               width="1000"
               className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -38,7 +38,7 @@ const Projects = () => {
             className="lg:h-[60vh] md:h-[50vh] sm:h-[40vh] h-[30vh] w-full overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
           >
             <Image
-              src={"/image-5.jpg"}
+              src={"/project-2.png"}
               height="1000"
               width="1000"
               className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
@@ -50,7 +50,7 @@ const Projects = () => {
             className="lg:h-[60vh] md:h-[50vh] sm:h-[40vh] h-[30vh] w-full overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
           >
             <Image
-              src={"/image-6.jpg"}
+              src={"/project-3.png"}
               height="1000"
               width="1000"
               className="h-full w-full object-cover rounded-xl group-hover/card:shadow-xl"
