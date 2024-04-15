@@ -1,5 +1,6 @@
 "use client";
 import { HamburgerMenuIcon } from "@radix-ui/react-icons";
+import Link from "next/link";
 import React, { useState } from "react";
 
 const Header = () => {
@@ -38,12 +39,12 @@ const Header = () => {
         >
           {Links.map((link) => (
             <li key={link.name} className="md:ml-8 text-md md:my-0 my-7">
-              <a
+              <Link
                 href={link.link}
                 className="text-[--secondary-text-color] hover:text-[--primary-text-color-white] duration-500"
               >
                 {link.name}
-              </a>
+              </Link>
             </li>
           ))}
         </ul>

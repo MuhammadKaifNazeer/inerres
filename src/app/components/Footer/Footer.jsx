@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const Footer = () => {
@@ -12,11 +13,17 @@ const Footer = () => {
             <span className="h-[35px] w-[35px] rounded-full bg-[--primary-color] mr-2"></span>
             INERRES
           </div>
-        <div className="flex flex-col sm:flex-row justify-between items-center bg-[--secondary-color] flex-wrap text-[--secondary-text-color]">
-          <p className="mx-1 hover:text-[--primary-text-color-black] duration-500 hover:underline cursor-pointer">Terms & Agreements</p>
-          <p className="mx-1 hover:text-[--primary-text-color-black] duration-500 hover:underline cursor-pointer text-center">@2024 Inerres - Muhammad Kaif Nazeer. All Rights Reserved</p>
-          <p className="mx-1 hover:text-[--primary-text-color-black] duration-500 hover:underline cursor-pointer">Privacy Policy</p>
-        </div>
+          <div className="flex flex-col sm:flex-row justify-between items-center bg-[--secondary-color] flex-wrap text-[--secondary-text-color]">
+            <p className="mx-1 hover:text-[--primary-text-color-black] duration-500 hover:underline cursor-pointer">
+              Terms & Agreements
+            </p>
+            <p className="mx-1 hover:text-[--primary-text-color-black] duration-500 cursor-pointer text-center">
+              @2024 Inerres - <Link href={"https://muhammadkaifnazeer.netlify.app/"} className="hover:underline">Muhammad Kaif Nazeer.</Link>  All Rights Reserved.
+            </p>
+            <p className="mx-1 hover:text-[--primary-text-color-black] duration-500 hover:underline cursor-pointer">
+              Privacy Policy
+            </p>
+          </div>
         </div>
       </div>
     </>
