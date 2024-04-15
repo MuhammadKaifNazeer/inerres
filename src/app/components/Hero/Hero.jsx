@@ -1,4 +1,4 @@
-import { ArrowTopRightIcon, PlusIcon } from "@radix-ui/react-icons";
+import { ArrowTopRightIcon } from "@radix-ui/react-icons";
 import Image from "next/image";
 import React from "react";
 
