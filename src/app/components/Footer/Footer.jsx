@@ -18,7 +18,7 @@ const Footer = () => {
               Terms & Agreements
             </p>
             <p className="mx-1 hover:text-[--primary-text-color-black] duration-500 cursor-pointer text-center">
-              @2024 Inerres - <Link href={"https://muhammadkaifnazeer.netlify.app/"} className="hover:underline">Muhammad Kaif Nazeer.</Link>  All Rights Reserved.
+              @2024 Inerres - <Link href={"https://muhammadkaifnazeer.netlify.app/"} target="_blank" className="hover:underline">Muhammad Kaif Nazeer.</Link>  All Rights Reserved.
             </p>
             <p className="mx-1 hover:text-[--primary-text-color-black] duration-500 hover:underline cursor-pointer">
               Privacy Policy
