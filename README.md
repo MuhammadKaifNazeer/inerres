@@ -1,6 +1,7 @@
 # Inerres Landing Page
 
-[![Inerres](Inerres)](public/inerres.png) 
+![Samza](/public/inerres.png)
+[![Inerres](Inerres)](/public/inerres.png) 
 
 **Created by:** Muhammad Kaif Nazeer
 
