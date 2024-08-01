@@ -6,14 +6,14 @@ const Hero = () => {
   return (
     <>
       <div className="hero" id="hero">
-        <div className="sm:pt-[5rem] pt-[4rem] sm:pb-[4rem] pb-[3rem] text-[--primary-text-color-white] bg-[--bg-black] px-5">
-          <h1 className="lg:text-[13.3vw] sm:text-[12.9vw] text-[12vw] font-bold text-center">
+        <div className="max-w-7xl mx-auto overflow-hidden pt-[4rem] sm:pb-[4rem] pb-[3rem] text-[--primary-text-color-white] bg-[--bg-black] px-5">
+          <h1 className="lg:text-[13.3vw] sm:text-[12.9vw] text-[12vw] font-bold text-center xl:text-[10.7rem]">
             SATISFACTION
           </h1>
 
           <div className="flex flex-wrap lg:justify-between justify-center items-center lg:px-4">
             <div className="w-[100%] lg:w-[50%] flex items-center ">
-              <p className="lg:w-[73%] lg:text-xl text-[--secondary-text-color] p-1 sm:p-0">
+              <p className="lg:w-[73%] lg:text-xl text-center lg:text-start text-[--secondary-text-color] p-1 sm:p-0">
                 We create venues to improve people&apos;s live, we bring the
                 magic to life. On the surface, it&apos;s gleaming, but on the
                 inside, it&apos;s stunning.
@@ -51,7 +51,7 @@ const Hero = () => {
 
           {/* bento grid layout using flex box */}
           <div className="flex w-full mt-10 flex-wrap">
-            <div className="lg:w-[75%] w-[100%] h-[100vh]">
+            <div className="lg:w-[75%] w-[100%] h-[100vh] max-h-[40rem]">
               <div className="h-[50%] w-full flex">
                 <div className="hidden sm:block h-full w-[30%] overflow-hidden rounded-lg ">
                   <div
@@ -92,7 +92,7 @@ const Hero = () => {
               </div>
             </div>
 
-            <div className="lg:w-[25%] w-[100%] h-[100vh] hidden lg:block flex-col">
+            <div className="lg:w-[25%] w-[100%] h-[100vh] hidden lg:block flex-col max-h-[40rem]">
               <div
                 translateZ="100"
                 className="w-full h-[50%] overflow-hidden rounded-lg flex justify-center items-end p-1 sm:p-1.5"
@@ -123,9 +123,9 @@ const Hero = () => {
 
         {/* bottom hero text  */}
         <div className="BottomText">
-          <div className="py-[4vw] lg:py-[3vw] bg-[--primary-color] w-full flex justify-center items-center">
+          <div className="py-[4vw] lg:py-[3vw] xl:py-[2rem] bg-[--primary-color] w-full flex justify-center items-center">
             <span className="h-[1rem] sm:h-[1.3rem] md:h-[1.5rem] w-[1rem] sm:w-[1.3rem] md:w-[1.5rem] bg-[--primary-text-color-black] rounded-full mx-[1rem] sm:mx-[3rem]"></span>
-            <h1 className="lg:text-6xl md:text-5xl sm:text-3xl text-center text-2xl font-[550] text-[--primary-text-color-black]">
+            <h1 className=" md:text-5xl sm:text-3xl text-center text-2xl font-[550] text-[--primary-text-color-black]">
               CHECK MORE PRODUCTS{" "}
             </h1>
             <span className="h-[1rem] sm:h-[1.3rem] md:h-[1.5rem] w-[1rem] sm:w-[1.3rem] md:w-[1.5rem] bg-[--primary-text-color-black] rounded-full mx-[1rem] sm:mx-[3rem]"></span>

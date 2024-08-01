@@ -5,8 +5,10 @@ import React from "react";
 const Products = () => {
   return (
     <>
-      <div className="products my-[5rem] px-3 sm:px-6" id="products">
-        
+      <div
+        className="products my-[5rem] px-3 sm:px-6 max-w-7xl mx-auto overflow-hidden"
+        id="products"
+      >
         <div className="sectionHead w-full bg-[--secondary-color] p-2 rounded-full flex justify-between items-center">
           <div className="h-[15px] w-[15px] rounded-full bg-[--primary-color] ml-5 hidden sm:block"></div>
 
@@ -22,7 +24,6 @@ const Products = () => {
         </div>
 
         <div className="products grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-3 mt-3">
-
           <div className="product cursor-pointer h-max bg-[--secondary-color] rounded-[1.8rem]">
             <h1 className="text-3xl m-5 mx-7 text-[--secondary-text-color]">
               Luxury Chair
@@ -40,7 +41,6 @@ const Products = () => {
               />
             </div>
           </div>
-          
 
           <div className="product cursor-pointer h-max bg-[--secondary-color] rounded-[1.8rem]">
             <h1 className="text-3xl m-5 mx-7 text-[--secondary-text-color]">
@@ -131,7 +131,6 @@ const Products = () => {
               />
             </div>
           </div>
-
         </div>
       </div>
     </>

@@ -25,10 +25,16 @@
   .sectionHead {
     justify-content: center;
   }
-  .sectionHeadTitle{
+
+  .sectionHeadTitle {
     margin: 1rem;
   }
+
   .sectionHeadPlusIcon {
     display: none;
   }
+}
+
+body {
+  background: var(--bg-black)
 }
